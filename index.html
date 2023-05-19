@@ -1,0 +1,591 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./styles/css/style.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Главная</title>
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            
+            <div class="header__top">
+                <nav class="header__navigation navigation">
+                    <ul class="navigation__items">
+                        <li class="navigation__item navigation__item--margin">Магазины</li>
+                        <li class="navigation__item">Акции</li>
+                        <li class="navigation__item">Доставка и оплата</li>
+                    </ul>
+                </nav>
+                <input type="checkbox" id="burger">
+                <label class="header__icon" for="burger">
+                    <img src="./styles/image/menu.svg" alt="dribe moto">
+                </label>
+            
+                <nav class=" navigation navigation_mobile ">
+                    <ul class="navigation__items navigation__items_mobile">
+                        <li class="navigation__item">
+                            <img src="./styles/image/avatar.svg" alt="drive moto">
+                            <a href="#">Войти</a>
+                        </li>
+                        <li class="navigation__item">
+                            <img src="./styles/image/avatar.svg" alt="drive moto">
+                            <a href="#">Регистрация</a>
+                        </li>
+                        <li class="navigation__item">
+                            <img src="./styles/image/favorites.svg" alt="drive moto">
+                            <a href="#">Избранное</a>
+                        </li>
+                        <li class="navigation__item">
+                            <img src="./styles/image/cart.svg" alt="drive moto">
+                            <a href="#">Карзина</a>
+                        </li>
+                        <li class="navigation__item">
+                            <img src="./styles/image/house.svg" alt="drive moto">
+                            <a href="#">Магазины</a>
+                        </li>
+                        <li class="navigation__item">
+                            <img src="./styles/image/%.svg" alt="drive moto">
+                            <a href="#">Акции</a>
+                        </li>
+                        <li class="navigation__item">
+                            <img src="./styles/image/box.svg" alt="drive moto">
+                            <a href="#">Доставка и оплата</a>
+                        </li>
+                        <li class="navigation__item navigation__item_margin">
+                            <a href="#">Квадроциклы</a>
+                        </li>
+                        <li class="navigation__item navigation__item_margin">
+                            <a href="#">Катера</a>
+                        </li>
+                        <li class="navigation__item navigation__item_margin">
+                            <a href="#">Гидроциклы</a>
+                        </li>
+                        <li class="navigation__item navigation__item_margin">
+                            <a href="#">Лодки</a>
+                        </li>
+                        <li class="navigation__item navigation__item_margin">
+                            <a href="#">Вездеходы</a>
+                        </li>
+                        <li class="navigation__item navigation__item_margin">
+                            <a href="#">Снегоходы</a>
+                        </li>
+                        <li class="navigation__item navigation__item_margin">
+                            <a href="#">Двигатели</a>
+                        </li>
+                        <li class="navigation__item navigation__item_margin">
+                            <a href="#">Запчасти</a>
+                        </li>
+                        <li class="navigation__item navigation__item_margin">
+                            <span class="location__text">Москва, </br> ул. Науки  25</span> 
+                        </li>
+                    </ul>
+                
+                </nav>
+                <div class="header__logo logo">
+                    <div class="logo_image">
+                        <img src="./styles/image/logo.png" alt="logo" class="logo">
+                    </div>
+                    <div class="logo__text">drive moto</div>
+                </div>
+                <div class="header__lacation location">
+                    <div class="location__pointer">
+                        <img src="./styles/image/pointer-menu.svg" alt="drive moto">
+                    </div>
+                   <span class="location__text">Москва,  ул. Науки  25</span> 
+                </div>
+                <div class="header__user ">
+
+                        <div class="user__favorites">
+                            <img src="./styles/image/favorites.svg" alt="drive moto">
+                        </div>
+                        <div class="user__profile">
+                            <img src="./styles/image/avatar.svg" alt="drive moto">
+                        </div>
+                        <div class="user__cart">
+                            <img src="./styles/image/cart.svg" alt="drive moto">
+                        </div>
+                    
+
+                </div>
+            </div>
+            <section class="header__menu">
+                <nav class="menu">
+                    <ul class="menu__items">
+                        <li class="menu__item"><a href="#" class="menu__link">Квадроциклы</a></li>
+                        <li class="menu__item"><a href="#" class="menu__link ">Катера</a></li>
+                        <li class="menu__item"><a href="#" class="menu__link menu__link--active">Гидроциклы</a></li>
+                        <li class="menu__item"><a href="#" class="menu__link">Лодки</a></li>
+                        <li class="menu__item"><a href="#" class="menu__link">Вездеходы</a></li>
+                        <li class="menu__item"><a href="#" class="menu__link">Снегоходы</a></li>
+                        <li class="menu__item"><a href="#" class="menu__link">Двигатели</a></li>
+                        <li class="menu__item"><a href="#" class="menu__link">Запчасти</a></li>
+                    </ul>
+                </nav>
+            </section>
+        </header>
+        <main class="main">
+            <section class=" stocks">
+                <div class="stocks__wrapper">
+                    <div class="slider">
+                        <div class="slider__arrow slider__arrow--left"><img src="./styles/image/banner-arow-left.png" alt=""></div>
+                                <div class="slider__arrow  slider__arrow--right"><img src="./styles/image/banner-arrow-right.png" alt=""></div>
+
+                        <div class="slider__trigers trigers" >
+                            <div class="trigers_item trigers__item--active"></div>
+                            <div class="trigers_item"></div>
+                            <div class="trigers_item"></div>
+                            <div class="trigers_item"></div>
+                            <div class="trigers_item"></div>
+                            <div class="trigers_item"></div>
+                        </div>
+                        <div class="slider__row slider__row-mobile">
+                                <img src="./styles/image/banner.jpg" alt="drive moto">
+                                <img src="./styles/image/banner.jpg" alt="drive moto"> 
+                        </div>
+                    </div>
+                    <div class="sale">
+                        <div class="sale__wrapper">
+                        <div class="sale__header  saleHeader">
+                            <div class="saleHeader_text saleHeader_text--stocks">акция</div>
+                            <div class="saleHeader__price"> 
+                                190 000
+                                <img src="./styles/image/icon-currancy-price.svg" alt="drive moto">                                 
+                            </div>
+                           
+                        </div>
+                            <div class="saleHeader__oldPrice  oldPrice">
+                                <div class="oldPrice__text"> 225 000</div>
+                                <div class="oldPrice__img">
+                                    <img src="./styles/image/icon-currancy-oldPrice.svg" alt="drive moto"> 
+                                </div>
+                               
+                              
+                            </div>
+                            <div class="sale__img">
+                                <img src="./styles/image/motors.png" alt="drive moto" class="saleImg">
+                            </div>
+                        <div class="sale__title">
+                            Лодочный мотор<br/> 
+                            Suzuki DF9.9BRS
+                        </div>
+                        <div class="sale__top">
+                            <div class="sale__description">
+                                Акция действует до  
+                            </div> 
+                            
+                            <div class="sale__date">
+                                31.08.2020
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                    </div>
+                </section>
+                <section class="search">
+                    <div class="search__filters">
+                        <nav class="navigation">
+                            <ul class="navigation__items navigation__items-filters">
+                                <li class="navigation__item navigation__item--margin">Поиск по номеру</li>
+                                <li class="navigation__item  navigation__item-filterActiv">Поиск по марке</li>
+                                <li class="navigation__item">Поиск по названию товара</li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="search__form">
+                    <form class="form">
+                        <input   class="form__input" type="text" placeholder="Введите марку ">
+                        <img class="form__icon" src="./styles/image/icon-search.svg" alt="drive moto">
+                        <button class="form__button" type ='button'>искать</button>        
+                </form>
+            </div>
+                </section>
+                <section class="main__categories">
+                    <div class="categories">
+                        <div class="categories__wrapper">
+                            <div class="categories__item main-noMargin">
+                                <div class="categories__title">Квадроциклы</div>
+                                <div class="categories__image">
+                                    <img src="./styles/image/quad-bike.png" alt="drive moto">
+                                </div>
+                                <div class="categories__link">
+                                    <a href="#">Подробее</a>
+                                    <span><img src="./styles/image/categories-arrow.svg" alt="drive moto"></span>
+                                </div>
+                            </div>
+                            <div class="categories__item categories__item-active">
+                                <div class="categories__title">Гидроциклы</div>
+                                <div class="categories__image">
+                                    <img src="./styles/image/jet-sky.png" alt="drive moto">
+                                </div>
+                                <div class="categories__link">
+                                    <a href="#">Подробее</a>
+                                    <span><img src="./styles/image/categories-arrow.svg" alt="drive moto"></span>
+                                </div>
+                            </div>
+                            <div class="categories__item">
+                                <div class="categories__title">Катера</div>
+                                <div class="categories__image">
+                                    <img src="./styles/image/boat.png" alt="drive moto">
+                                </div>
+                                <div class="categories__link">
+                                    <a href="#">Подробее</a>
+                                    <span><img src="./styles/image/categories-arrow.svg" alt="drive moto"></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="categories__wrapper categories__wrapper-bottom">
+                            <div class="categories__item">
+                                <div class="categories__title">Снегоходы</div>
+                                <div class="categories__image">
+                                    <img src="./styles/image/snowmobiles.png" alt="drive moto">
+                                </div>
+                                <div class="categories__link">
+                                    <a href="#">Подробее</a>
+                                    <span><img src="./styles/image/categories-arrow.svg" alt="drive moto"></span>
+                                </div>
+
+
+                            </div>
+                            <div class="categories__item ">
+                                <div class="categories__title">Вездеходы</div>
+                                <div class="categories__image">
+                                    <img src="./styles/image/all-terrain vehicles.png" alt="drive moto">
+                                </div>
+                                <div class="categories__link">
+                                    <a href="#">Подробее</a>
+                                    <span><img src="./styles/image/categories-arrow.svg" alt="drive moto"></span>
+                                </div>
+
+
+                            </div>
+                            <div class="categories__item ">
+                                <div class="categories__title">Двигатели</div>
+                                <div class="categories__image">
+                                    <img src="./styles/image/motors.png" alt="drive moto">
+                                </div>
+                                <div class="categories__link">
+                                    <a href="#">Подробее</a>
+                                    <span><img src="./styles/image/categories-arrow.svg" alt="drive moto"></span>
+                                </div>
+
+
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="main__popular">
+                    <div class="title">
+                        <div class="title__text">Популярные товары</div>
+                    </div>
+                    <div class="mein__menu mein__menu-products">
+                        <nav class="menu menu-products">
+                            <ul class="menu__items menu__items-products">
+                                <li class="menu__item "><a href="#" class="menu__link menu__link--active ">запчасти</a></li>
+                                <li class="menu__item"><a href="#" class="menu__link">моторы</a></li>
+                                <li class="menu__item"><a href="#" class="menu__link">шины </a></li>
+                                <li class="menu__item"><a href="#" class="menu__link">электроника</a></li>
+                                <li class="menu__item"><a href="#" class="menu__link">инструменты</a></li>
+                                <li class="menu__item"><a href="#" class="menu__link">аксессуары </a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="slider slider-products">
+                        <div class="slider__arrow slider__blackArrow--left"><img src="./styles/image/slider-black-arrow-left.svg" alt="drive moto"></div>
+                                <div class="slider__arrow  slider__blackArrow--right"><img src="./styles/image/slider-black-arrow-right.svg" alt="drive moto"></div>
+
+                        <div class="slider__row">
+                             <div class="product">
+                              <div class="product__favorit">
+                                <img src="./styles/image/favorites.svg" alt="drive moto">
+                              </div>
+                              <div class="product__imege">
+                                <img src="./styles/image/backpack.png" alt="drive moto">
+                              </div>
+                              <div class="product__title">
+                                Водонепроницаемый</br>
+                                 Рюкзак
+                            </div>
+                            <div class="product__prise"> 9 800 ₽</div>
+                            <div class="product__cart">
+                                <img src="./styles/image/cart-product.svg" alt="drive moto">
+                            </div>
+                             </div>
+                             <div class="product">
+                                <div class="product__sale">sale</div>
+                                <div class="product__favorit">
+                                  <img src="./styles/image/favorites.svg" alt="drive moto">
+                                </div>
+                                <div class="product__imege">
+                                  <img src="./styles/image/equipment.png" alt="drive moto">
+                                </div>
+                                <div class="product__title">
+                                    Спасательное</br>
+                                    снаряжение
+                              </div>
+                              <div class="product__prise product__prise-noPrise"> нет в наличии</div>
+                              <div class="product__cart">
+                                  <img src="./styles/image/cart-product.svg" alt="drive moto">
+                              </div>
+                               </div>
+                               <div class="product">
+                                <div class="product__favorit">
+                                  <img src="./styles/image/favorites.svg" alt="drive moto">
+                                </div>
+                                <div class="product__imege">
+                                  <img src="./styles/image/backpack.png" alt="drive moto">
+                                </div>
+                                <div class="product__title">
+                                  Водонепроницаемый</br>
+                                   Рюкзак
+                              </div>
+                              <div class="product__prise"> 9 800 ₽</div>
+                              <div class="product__cart">
+                                  <img src="./styles/image/cart-product.svg" alt="drive moto">
+                              </div>
+                               </div>
+                               <div class="product">
+                                <div class="product__favorit">
+                                  <img src="./styles/image/favorites.svg" alt="drive moto">
+                                </div>
+                                <div class="product__imege">
+                                  <img src="./styles/image/backpack.png" alt="drive moto">
+                                </div>
+                                <div class="product__title">
+                                  Водонепроницаемый</br>
+                                   Рюкзак
+                              </div>
+                              <div class="product__prise"> 9 800 ₽</div>
+                              
+                                <div class="product__cart">
+                                <img src="./styles/image/cart-product.svg" alt="drive moto">
+                            
+                        </div>
+                              
+                               </div>
+                                
+                        </div>
+                        <div class="slider__trigers slider__trigers-products  trigers" >
+                            <div class="trigers_item trigers__item--activeProducts "></div>
+                            <div class="trigers_item trigers_item-products"></div>
+                            <div class="trigers_item trigers_item-products"></div>
+                        </div>
+                    </div>
+                    <div class="main__more">
+                        <button class="main__button" type="submit">Показать еще</button>
+                    </div>
+                </section>
+                <section class="main__banner banner">
+                    <div class="bunner__image bunner__image_bagi">
+                        <img src="./styles/image/quad-bike.png" alt="drive moto">
+                      </div>
+                      <div class="bunner__image bunner__image_quadro">
+                        <img src="./styles/image/banner-foto-2.png" alt="drive moto">
+                      </div>
+                    
+                    <div class="bunner__description">
+                        CКИДКИ<br/> 
+                        на все запчасти<br/>
+                        до 70%
+                    </div>
+                    <div class="bunner__button">
+                        <button class="main__button" type="submit">Показать все</button>
+                    </div>
+                </section>
+                <section class="main__banner banner main__banner_mobile">
+                    <div class="bunner__description">
+                       скидки 
+                        на все запчасти<br/>
+                        до 70%  
+                    </div>
+                        <div class="bunner__botom">
+                            <div class="bunner__image bunner__image_quadro">
+                                <img src="./styles/image/banner-foto-2.png" alt="drive moto">
+                              </div>
+                              <div class="bunner__button">
+                                <button class="main__button" type="submit">Показать все</button>
+                            </div>
+                            <div class="bunner__image bunner__image_bagi">
+                                <img src="./styles/image/quad-bike.png" alt="drive moto">
+                              </div>
+                        </div>
+                   
+                     
+                    
+                   
+                   
+                </section>
+
+                <section class="main__frequent">
+                    <div class="title">
+                        <div class="title__text">С этим товаром покупают</div>
+                    </div>
+                    <div class="mein__menu mein__menu-products">
+                        <nav class="menu menu-products">
+                            <ul class="menu__items menu__items-products">
+                                <li class="menu__item "><a href="#" class="menu__link">запчасти</a></li>
+                                <li class="menu__item"><a href="#" class="menu__link">моторы</a></li>
+                                <li class="menu__item"><a href="#" class="menu__link">шины </a></li>
+                                <li class="menu__item"><a href="#" class="menu__link menu__link--active">электроника</a></li>
+                                <li class="menu__item"><a href="#" class="menu__link">инструменты</a></li>
+                                <li class="menu__item"><a href="#" class="menu__link">аксессуары </a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="slider slider-products">
+                        <div class="slider__arrow slider__blackArrow--left .slider__arrow-mobile"><img src="./styles/image/slider-black-arrow-left.svg" alt="drive moto"></div>
+                                <div class="slider__arrow  slider__blackArrow--right .slider__arrow-mobile"><img src="./styles/image/slider-black-arrow-right.svg" alt="drive moto"></div>
+
+                        <div class="slider__row">
+                             <div class="product">
+                              <div class="product__favorit">
+                                <img src="./styles/image/favorites.svg" alt="drive moto">
+                              </div>
+                              <div class="product__imege">
+                                <img src="./styles/image/backpack.png" alt="drive moto">
+                              </div>
+                              <div class="product__title">
+                                Водонепроницаемый</br>
+                                 Рюкзак
+                            </div>
+                            <div class="product__prise"> 9 800 ₽</div>
+                            <div class="product__cart">
+                                <img src="./styles/image/cart-product.svg" alt="drive moto">
+                            </div>
+                             </div>
+                             <div class="product">
+                                <div class="product__sale">sale</div>
+                                <div class="product__favorit">
+                                  <img src="./styles/image/favorites.svg" alt="drive moto">
+                                </div>
+                                <div class="product__imege">
+                                  <img src="./styles/image/equipment.png" alt="drive moto">
+                                </div>
+                                <div class="product__title">
+                                    Спасательное</br>
+                                    снаряжение
+                              </div>
+                              <div class="product__prise product__prise-noPrise"> нет в наличии</div>
+                              <div class="product__cart">
+                                  <img src="./styles/image/cart-product.svg" alt="drive moto">
+                              </div>
+                               </div>
+                               <div class="product">
+                                <div class="product__favorit">
+                                  <img src="./styles/image/favorites.svg" alt="drive moto">
+                                </div>
+                                <div class="product__imege">
+                                  <img src="./styles/image/backpack.png" alt="drive moto">
+                                </div>
+                                <div class="product__title">
+                                  Водонепроницаемый</br>
+                                   Рюкзак
+                              </div>
+                              <div class="product__prise"> 9 800 ₽</div>
+                              <div class="product__cart">
+                                  <img src="./styles/image/cart-product.svg" alt="drive moto">
+                              </div>
+                               </div>
+                               <div class="product">
+                                <div class="product__favorit">
+                                  <img src="./styles/image/favorites.svg" alt="drive moto">
+                                </div>
+                                <div class="product__imege">
+                                  <img src="./styles/image/backpack.png" alt="drive moto">
+                                </div>
+                                <div class="product__title">
+                                  Водонепроницаемый</br>
+                                   Рюкзак
+                              </div>
+                              <div class="product__prise"> 9 800 ₽</div>
+                              
+                                <div class="product__cart">
+                                <img src="./styles/image/cart-product.svg" alt="drive moto">
+                            
+                        </div>
+                              
+                               </div>
+                                
+                        </div>
+                        <div class="slider__trigers slider__trigers-products  trigers" >
+                            <div class="trigers_item trigers__item--activeProducts "></div>
+                            <div class="trigers_item trigers_item-products"></div>
+                            <div class="trigers_item trigers_item-products"></div>
+                        </div>
+                       
+                    </div>
+                    <div class="main__more main__more-mobile">
+                        <button class="main__button" type="submit">Показать еще</button>
+                    </div>
+                </section> 
+        </main>
+    </div>
+    <div class="footer">
+        <div class="container">
+        <div class="footer__info">
+            <div class="footer__subscription subscription">
+                <div class="subscription__text">
+                    Подпишитесь на нашу рассылку<br/> 
+                    и узнавайте о акции быстрее
+                </div>
+                <div class="subscription__form">
+                    <form class="form">
+                        <input   class="form__input form__input-subscription" type="text" placeholder="Введите ваш e-mail: ">
+                        <button class="form__button form__button-subscription" type ='button'>Отправить</button>        
+                </form>
+            </div>
+            
+
+        </div>
+        <div class="footer__menu">
+            <nav class="menu">
+                <div class="menu__title">Информация</div>
+               <ul class="menu__items menu__items-footer">
+                <li class="menu__item"><a href="#"> О компании</a></li>
+                <li class="menu__item"><a href="#"> Контакты</a></li>
+                <li class="menu__item"><a href="#"> Акции</a></li>
+                <li class="menu__item"><a href="#"> Магазины</a></li>
+                <li class="menu__item"><a href="#"> Магазины</a></li>
+
+
+               
+
+                    </ul>
+                </nav>
+            </div>
+            <div class="footer__menu">
+                <nav class="menu">
+                    <div class="menu__title">Интернет-магазин</div>
+                   <ul class="menu__items menu__items-footer">
+                    <li class="menu__item"><a href="#"> Доставка и самовывоз</a></li>
+                    <li class="menu__item"><a href="#">  Оплата</a></li>
+                    <li class="menu__item"><a href="#">  Возврат-обмен </a></li>
+                    <li class="menu__item"><a href="#"> Новости</a></li>
+                   
+                   
+                        </ul>
+                    </nav>
+                </div>
+                <div class="footer__contacts">
+                    <div class="footer__icon"><img src="./styles/image/instagram.svg" alt="drive moto"></div>
+                    <div class="footer__icon"> <img src="./styles/image/vk.svg" alt="drive moto"></div>
+                    <div class="footer__icon"><img src="./styles/image/facebook.svg" alt="drive moto"></div>
+                    <div class="footer__icon"> <img src="./styles/image/youtube.svg" alt="drive moto"></div>
+                   
+                    
+                   
+                </div>
+
+        </div>
+        <div class="footer__conditionality conditionality">
+            <div class="conditionality__text">Договор оферты</div>
+            <div class="conditionality__text">Политика обработки персональных данных</div>
+
+
+        </div>
+    </div>
+</div>
+</body>
+</html>
